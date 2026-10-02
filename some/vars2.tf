@@ -1,7 +1,7 @@
-# This matches var name nad it's OK
+# This matches var name and fails
 variable vault_secret_id  {}
 
-# This matches var name and fails
+# This matches var name and it's OK
 variable "vault_role_id"  {
     # some
     /* 
